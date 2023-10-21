@@ -47,7 +47,14 @@ table {
 	border-spacing: 0;
 }
 
-/* Custom Styles */
+/* Adds a max-width of 1440px, as per the assignment instructions */
+html {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Custom Global Styles */
 
 /* Frontend Mentor Styles */
 .attribution { 
@@ -57,4 +64,14 @@ table {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Custom Mobile Styles */
+@media screen and (min-width: 375px) and (max-width: 768px) {
+	
+}
+
+/* Custom Desktop Styles */
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	
 }
