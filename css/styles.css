@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: hsl(36, 100%, 99%);
 }
 ol, ul {
 	list-style: none;
@@ -54,8 +55,6 @@ html {
 	margin-right: auto;
 }
 
-/* Custom Global Styles */
-
 /* Frontend Mentor Styles */
 .attribution { 
     font-size: 11px; 
@@ -66,6 +65,24 @@ html {
     color: hsl(228, 45%, 44%); 
 }
 
+/* Custom Global Styles */
+
+/* removes underline from all links */
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+/* Removes global navbar toggler border */
+.navbar-toggler {
+	border: none;
+}
+
+/* Adds custom color to header */
+header {
+	background-color: hsl(233, 8%, 79%);
+}
+
 /* Custom Mobile Styles */
 @media screen and (min-width: 375px) and (max-width: 768px) {
 	
@@ -73,5 +90,5 @@ html {
 
 /* Custom Desktop Styles */
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-	
+
 }
