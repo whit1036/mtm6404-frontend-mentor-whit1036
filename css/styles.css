@@ -95,16 +95,23 @@ header {
 	background-color: hsl(233, 8%, 79%);
 }
 
+/* Custom styles for read more button */
 .read-more {
 	background-color: hsl(5, 85%, 63%);
 	border-radius: 0;
+	letter-spacing: 5px;
+	font-weight: 600;
+	padding: 0.9rem;
+	font-size: 15px;
 }
 
+/* Adds color for when hovering over read more button */
 .read-more:hover {
 	background-color: hsl(5, 85%, 63%);
 	transition: 0.7s;
 }
 
+/* updates text color for main paragraph */
 .main-p {
 	color: hsl(236, 13%, 42%);
 }
