@@ -92,7 +92,7 @@ a:link, a:visited, a:hover, a:active {
 
 /* Adds custom color to header */
 header {
-	background-color: hsl(233, 8%, 79%);
+	background-color: hsl(36, 100%, 99%);
 }
 
 /* Custom styles for read more button */
@@ -144,6 +144,11 @@ hr {
 	.new-section-h1 {
 		font-size: 30px;
 		font-weight: 600;
+	}
+
+	.new-section-h2 {
+		color: hsl(36, 100%, 99%);
+		font-size: 19.5px;
 	}
 }
 
