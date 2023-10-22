@@ -101,6 +101,8 @@ header {
 	border-radius: 0;
 	letter-spacing: 5px;
 	font-weight: 600;
+	padding: 0.8rem;
+	width: 11rem;
 	font-size: 15px;
 	color: hsl(36, 100%, 99%);
 }
