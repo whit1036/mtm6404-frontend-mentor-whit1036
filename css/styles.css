@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: hsl(36, 100%, 99%);
+	font-family: 'Inter', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -53,6 +54,15 @@ html {
 	max-width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* Sets deafult font size and font-weight */
+h1, h2, h3, h4 {
+	font-weight: 800;
+}
+
+p {
+	font-size: 15px;
 }
 
 /* Frontend Mentor Styles */
@@ -83,9 +93,22 @@ header {
 	background-color: hsl(233, 8%, 79%);
 }
 
+.read-more {
+	background-color: hsl(5, 85%, 63%);
+	border-radius: 0;
+}
+
+.read-more:hover {
+	background-color: hsl(5, 85%, 63%);
+	transition: 0.7s;
+}
+
 /* Custom Mobile Styles */
 @media screen and (min-width: 375px) and (max-width: 768px) {
-	
+	/* Updates mobile main title font size */
+	.main-title {
+		font-size: 43px;
+	}
 }
 
 /* Custom Desktop Styles */
