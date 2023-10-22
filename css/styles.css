@@ -156,6 +156,10 @@ a:link, a:visited, a:hover, a:active {
 		color: hsl(36, 100%, 99%);
 		font-size: 19.5px;
 	}
+
+	.sec-2-img {
+		width: 30%;
+	}
 }
 
 /* Custom Desktop Styles */
