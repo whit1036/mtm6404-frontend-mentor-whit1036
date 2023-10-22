@@ -91,7 +91,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* Adds custom color to header */
-header {
+nav {
 	background-color: hsl(36, 100%, 99%);
 }
 
