@@ -59,10 +59,12 @@ html {
 /* Sets deafult font size and font-weight */
 h1, h2, h3, h4 {
 	font-weight: 800;
+	color: hsl(240, 100%, 5%);
 }
 
 p {
 	font-size: 15px;
+	color: hsl(240, 100%, 5%);
 }
 
 /* Frontend Mentor Styles */
@@ -101,6 +103,10 @@ header {
 .read-more:hover {
 	background-color: hsl(5, 85%, 63%);
 	transition: 0.7s;
+}
+
+.main-p {
+	color: hsl(236, 13%, 42%);
 }
 
 /* Custom Mobile Styles */
