@@ -67,6 +67,15 @@ p {
 	color: hsl(240, 100%, 5%);
 }
 
+/* Adds custom color to header */
+nav {
+	background-color: hsl(36, 100%, 99%);
+}
+
+hr {
+	color: hsl(36, 100%, 99%);
+}
+
 /* Frontend Mentor Styles */
 .attribution { 
     font-size: 11px; 
@@ -90,11 +99,6 @@ a:link, a:visited, a:hover, a:active {
 	border: none;
 }
 
-/* Adds custom color to header */
-nav {
-	background-color: hsl(36, 100%, 99%);
-}
-
 /* Custom styles for read more button */
 .read-more {
 	background-color: hsl(5, 85%, 63%);
@@ -102,8 +106,8 @@ nav {
 	letter-spacing: 5px;
 	font-weight: 600;
 	padding: 0.8rem;
-	width: 11rem;
-	font-size: 15px;
+	width: 11.5rem;
+	font-size: 13px;
 	color: hsl(36, 100%, 99%);
 }
 
@@ -130,10 +134,6 @@ nav {
 	color: hsl(36, 100%, 99%);
 }
 
-hr {
-	color: hsl(36, 100%, 99%);
-}
-
 /* Custom Mobile Styles */
 @media screen and (min-width: 375px) and (max-width: 768px) {
 	/* Updates mobile main title font size */
@@ -141,11 +141,13 @@ hr {
 		font-size: 43px;
 	}
 
+	/* Updates Font Size and Weight for new section h1 */
 	.new-section-h1 {
 		font-size: 30px;
 		font-weight: 600;
 	}
 
+	/* Updates Font Size and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
 		font-size: 19.5px;
