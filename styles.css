@@ -158,7 +158,17 @@ a:link, a:visited, a:hover, a:active {
 	}
 
 	.sec-2-img {
-		width: 30%;
+		width: 29%;
+	}
+
+	.number-size {
+		font-size: 32px;
+		color: hsl(233, 8%, 79%);
+		font-weight: 600;
+	}
+
+	.sec-2-title {
+		font-size: 18px;
 	}
 }
 
