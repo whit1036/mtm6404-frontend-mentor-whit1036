@@ -149,6 +149,7 @@ a:link, a:visited, a:hover, a:active {
 	.new-section-h1 {
 		font-size: 30px;
 		font-weight: 600;
+		margin-bottom: 2.3rem;
 	}
 
 	/* Updates Font Size and color for new section h2 */
@@ -161,8 +162,12 @@ a:link, a:visited, a:hover, a:active {
 		width: 29%;
 	}
 
+	.retro, .laptop, .gaming {
+		margin-top: 2rem;
+	}
+
 	.number-size {
-		font-size: 32px;
+		font-size: 31px;
 		color: hsl(233, 8%, 79%);
 		font-weight: 600;
 	}
@@ -174,7 +179,7 @@ a:link, a:visited, a:hover, a:active {
 
 /* Custom Tablet Styles */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-	
+
 }
 
 /* Custom Desktop Styles */
