@@ -172,7 +172,12 @@ a:link, a:visited, a:hover, a:active {
 	}
 }
 
+/* Custom Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	
+}
+
 /* Custom Desktop Styles */
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 992px) and (max-width: 1440px) {
 
 }
