@@ -95,11 +95,6 @@ a:link, a:visited, a:hover, a:active {
     color: var(--text-light);
 }
 
-/* Removes global navbar toggler border */
-.navbar-toggler {
-	border: none;
-}
-
 /* Custom styles for read more button */
 .read-more {
 	background-color: hsl(5, 85%, 63%);
