@@ -72,9 +72,6 @@ p {
 }
 
 /* Adds custom color to header */
-nav {
-	background-color: hsl(36, 100%, 99%);
-}
 
 hr {
 	color: hsl(36, 100%, 99%);
@@ -183,7 +180,43 @@ a:link, a:visited, a:hover, a:active {
 
 /* Custom Tablet Styles */
 @media screen and (min-width: 769px) and (max-width: 992px) {
-	#mobile-nav {
+	
+	.main-title {
+		font-size: 43px;
+	}
+
+	/* Updates Font Size and Weight for new section h1 */
+	.new-section-h1 {
+		font-size: 35px;
+		font-weight: 600;
+		margin-bottom: 2.3rem;
+	}
+
+	/* Updates Font Size and color for new section h2 */
+	.new-section-h2 {
+		color: hsl(36, 100%, 99%);
+		font-size: 23.5px;
+	}
+
+	.sec-2-img {
+		width: 29%;
+	}
+
+	.retro, .laptop, .gaming {
+		margin-top: 2rem;
+	}
+
+	.number-size {
+		font-size: 41px;
+		color: hsl(233, 8%, 79%);
+		font-weight: 600;
+	}
+
+	.sec-2-title {
+		font-size: 22px;
+	}
+	
+	#desktop-nav {
 		display: none;
 	}
 
