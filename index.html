@@ -23,10 +23,10 @@
   <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
 
   <!-- Header -->
-  <header role="header">
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+  <header class="container" role="header">
+    <!-- Desktop Navigation Bar -->
+    <nav id="desktop-nav" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid mt-3 px-0">
         <a class="navbar-brand" href="index.html"><img class="w-75" src="assets/images/logo.svg" role="img" alt="main logo" ria-current="page"></a>
         <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <img src="assets/images/icon-menu.svg" role="img" alt="nav icon" ria-current="page">
@@ -49,6 +49,40 @@
               <a class="nav-link" href="#">Categories</a>
             </li>
           </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Mobile Navigation Bar -->
+    <nav id="mobile-nav" class="navbar navbar-dark bg-body-tertiary">
+      <div class="container-fluid mt-3 px-0">
+        <a class="navbar-brand" href="index.html"><img class="w-75" src="assets/images/logo.svg" role="img" alt="main logo" ria-current="page"></a>
+        <button class="btn navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <img src="assets/images/icon-menu.svg" role="img" alt="nav icon" ria-current="page">
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
