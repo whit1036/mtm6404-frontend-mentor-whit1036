@@ -89,10 +89,17 @@ hr {
 
 /* Custom Global Styles */
 
+nav .navbar-nav li a {
+	color: hsl(240, 100%, 5%);
+}
+
+nav .navbar-nav li a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
 /* removes underline from all links */
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-    color: var(--text-light);
 }
 
 /* Custom styles for read more button */
@@ -130,8 +137,17 @@ a:link, a:visited, a:hover, a:active {
 	color: hsl(36, 100%, 99%);
 }
 
+/* Updates width of mobile offcanvas navbar */
+#offcanvasDarkNavbar {
+	width: 250px;
+}
+
 /* Custom Mobile Styles */
 @media screen and (max-width: 768px) {
+	#desktop-banner {
+		display: none;
+	}
+	
 	/* Updates mobile main title font size */
 	.main-title {
 		font-size: 43px;
@@ -175,7 +191,10 @@ a:link, a:visited, a:hover, a:active {
 
 /* Custom Tablet Styles */
 @media screen and (min-width: 769px) and (max-width: 992px) {
-	
+	#desktop-banner {
+		display: none;
+	}
+
 	.main-title {
 		font-size: 43px;
 	}
@@ -219,12 +238,28 @@ a:link, a:visited, a:hover, a:active {
 
 /* Custom Desktop Styles */
 @media screen and (min-width: 993px) and (max-width: 1440px) {
+	.main-title {
+		font-size: 60px;
+	}
+	
+	#mobile-banner {
+		display: none;
+	}
+	
 	#mobile-nav {
 		display: none;
 	}
 }
 
 @media screen and (min-width: 1440px) {
+	.main-title {
+		font-size: 60px;
+	}
+	
+	#mobile-banner {
+		display: none;
+	}
+	
 	#mobile-nav {
 		display: none;
 	}
