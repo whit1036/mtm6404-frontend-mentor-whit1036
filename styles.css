@@ -97,6 +97,14 @@ nav .navbar-nav li a:hover {
 	color: hsl(35, 77%, 62%);
 }
 
+.new-section a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
+.sec-2-title a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
 /* removes underline from all links */
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
@@ -133,17 +141,13 @@ a:link, a:visited, a:hover, a:active {
 	color: hsl(35, 77%, 62%);
 }
 
-.new-section-h2 {
-	color: hsl(36, 100%, 99%);
-}
-
 /* Updates width of mobile offcanvas navbar */
 #offcanvasDarkNavbar {
 	width: 250px;
 }
 
 /* Custom Mobile Styles */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 350px) and (max-width: 768px) {
 	#desktop-banner {
 		display: none;
 	}
