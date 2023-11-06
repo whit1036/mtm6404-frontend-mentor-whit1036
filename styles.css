@@ -253,6 +253,23 @@ a:link, a:visited, a:hover, a:active {
 	#mobile-nav {
 		display: none;
 	}
+	
+	.sec-2-img {
+		width: 20%;
+	}
+
+	/* Updates Font Size and Weight for new section h1 */
+	.new-section-h1 {
+		font-size: 35px;
+		font-weight: 600;
+		margin-bottom: 2.3rem;
+	}
+
+	/* Updates Font Size and color for new section h2 */
+	.new-section-h2 {
+		color: hsl(36, 100%, 99%);
+		font-size: 23.5px;
+	}
 }
 
 @media screen and (min-width: 1440px) {
@@ -266,5 +283,22 @@ a:link, a:visited, a:hover, a:active {
 	
 	#mobile-nav {
 		display: none;
+	}
+
+	.sec-2-img {
+		width: 40%;
+	}
+
+	/* Updates Font Size and Weight for new section h1 */
+	.new-section-h1 {
+		font-size: 35px;
+		font-weight: 600;
+		margin-bottom: 2.3rem;
+	}
+
+	/* Updates Font Size and color for new section h2 */
+	.new-section-h2 {
+		color: hsl(36, 100%, 99%);
+		font-size: 23.5px;
 	}
 }
