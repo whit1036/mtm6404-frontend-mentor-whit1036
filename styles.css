@@ -110,7 +110,7 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-/* Custom styles for read more button */
+/* Custom styles for read more button. Please see the stackoverflow reference I used to find out how to remove the rounded corners of the button using border-radius: 0; */
 .read-more {
 	background-color: hsl(5, 85%, 63%);
 	border-radius: 0;
@@ -122,9 +122,10 @@ a:link, a:visited, a:hover, a:active {
 	color: hsl(36, 100%, 99%);
 }
 
-/* Adds color for when hovering over read more button */
+/* Please see my reference CSS button style hover from freecodecamp. This class adds a background color and text color for when hovering over the read more button */
 .read-more:hover {
-	background-color: hsl(5, 85%, 63%);
+	background-color:  hsl(240, 100%, 5%);
+	color: hsl(36, 100%, 99%);
 	transition: 0.7s;
 }
 
