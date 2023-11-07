@@ -134,11 +134,6 @@ a:link, a:visited, a:hover, a:active {
 	color: hsl(236, 13%, 42%);
 }
 
-.new-section {
-	background-color: hsl(240, 100%, 5%);
-	padding: 2.5rem;
-}
-
 .new-section-h1 {
 	color: hsl(35, 77%, 62%);
 }
@@ -153,10 +148,37 @@ a:link, a:visited, a:hover, a:active {
 	#desktop-banner {
 		display: none;
 	}
+
+	.main-p {
+		line-height: 1.6rem;
+	}
+
+	.p-blurb {
+		margin-top: 1rem;
+	}
+
+	.article-p {
+		margin-top: 1rem;
+		margin-bottom: 1.8rem;
+	}
+
+	.article-p-vc {
+		margin-top: 1rem;
+	}
+
+	.read-more {
+		margin-top: 1.8rem;
+		margin-bottom: 4rem;
+	}
 	
 	/* Updates mobile main title font size */
 	.main-title {
 		font-size: 43px;
+	}
+
+	.new-section {
+		background-color: hsl(240, 100%, 5%);
+		padding: 1.5rem;
 	}
 
 	/* Updates Font Size and Weight for new section h1 */
@@ -196,18 +218,46 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* Custom Tablet Styles */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 	#desktop-banner {
 		display: none;
 	}
 
+	.main-p {
+		line-height: 1.6rem;
+	}
+
+	.p-blurb {
+		margin-top: 1rem;
+	}
+
+	.article-p {
+		margin-top: 1rem;
+		margin-bottom: 1.8rem;
+	}
+
+	.article-p-vc {
+		margin-top: 1rem;
+	}
+
+	.read-more {
+		margin-top: 1.8rem;
+		margin-bottom: 4rem;
+	}
+	
+	/* Updates mobile main title font size */
 	.main-title {
 		font-size: 43px;
 	}
 
+	.new-section {
+		background-color: hsl(240, 100%, 5%);
+		padding: 1.5rem;
+	}
+
 	/* Updates Font Size and Weight for new section h1 */
 	.new-section-h1 {
-		font-size: 35px;
+		font-size: 30px;
 		font-weight: 600;
 		margin-bottom: 2.3rem;
 	}
@@ -215,7 +265,7 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates Font Size and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
-		font-size: 23.5px;
+		font-size: 19.5px;
 	}
 
 	.sec-2-img {
@@ -227,23 +277,18 @@ a:link, a:visited, a:hover, a:active {
 	}
 
 	.number-size {
-		font-size: 41px;
+		font-size: 31px;
 		color: hsl(233, 8%, 79%);
 		font-weight: 600;
 	}
 
-	.sec-2 {
-		margin-top: 1rem;
+	.sec-2-title {
+		font-size: 18px;
 	}
 
-	.sec-2-title {
-		font-size: 22px;
-	}
-	
 	#desktop-nav {
 		display: none;
 	}
-
 }
 
 /* Custom Desktop Styles */
@@ -266,6 +311,33 @@ a:link, a:visited, a:hover, a:active {
 		font-weight: 600;
 	}
 
+	.main-p {
+		line-height: 1.6rem;
+	}
+
+	.p-blurb {
+		margin-top: 1rem;
+	}
+
+	.article-p {
+		margin-top: 1rem;
+		margin-bottom: 1.8rem;
+	}
+
+	.article-p-vc {
+		margin-top: 1rem;
+	}
+
+	.read-more {
+		margin-top: 1.8rem;
+		margin-bottom: 4rem;
+	}
+
+	.new-section {
+		background-color: hsl(240, 100%, 5%);
+		padding: 1.5rem;
+	}
+
 	.sec-2 {
 		margin-top: 2rem;
 	}
@@ -275,11 +347,11 @@ a:link, a:visited, a:hover, a:active {
 	}
 
 	.sec-2-title {
-		font-size: 18px;
+		font-size: 15px;
 	}
 	
 	.sec-2-img {
-		width: 28%;
+		width: 40%;
 	}
 
 	/* Updates Font Size and Weight for new section h1 */
@@ -292,7 +364,7 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates Font Size and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
-		font-size: 23.5px;
+		font-size: 20px;
 	}
 }
 
@@ -315,12 +387,29 @@ a:link, a:visited, a:hover, a:active {
 		font-weight: 600;
 	}
 
-	.sec-2 {
-		margin-top: 2rem;
+	.main-p {
+		line-height: 1.6rem;
 	}
 
-	.main-p {
-		line-height: 1.7rem;
+	.p-blurb {
+		margin-top: 1.5rem;
+	}
+
+	.article-p {
+		margin-top: 1rem;
+		margin-bottom: 1.8rem;
+	}
+
+	.article-p-vc {
+		margin-top: 1rem;
+	}
+
+	.read-more {
+		margin-top: 1.8rem;
+	}
+
+	.sec-2 {
+		margin-top: 2rem;
 	}
 
 	.sec-2-title {
@@ -329,6 +418,11 @@ a:link, a:visited, a:hover, a:active {
 	
 	.sec-2-img {
 		width: 28%;
+	}
+
+	.new-section {
+		background-color: hsl(240, 100%, 5%);
+		padding: 2rem;
 	}
 
 	/* Updates Font Size and Weight for new section h1 */
@@ -341,6 +435,6 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates Font Size and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
-		font-size: 23.5px;
+		font-size: 20px;
 	}
 }
