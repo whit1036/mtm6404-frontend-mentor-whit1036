@@ -178,6 +178,7 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates mobile main title font size */
 	.main-title {
 		font-size: 43px;
+		margin-top: 1.5rem;
 	}
 
 	.new-section {
@@ -299,6 +300,7 @@ a:link, a:visited, a:hover, a:active {
 @media screen and (min-width: 993px) and (max-width: 1440px) {
 	.main-title {
 		font-size: 60px;
+		margin-top: 2rem;
 	}
 	
 	#mobile-banner {
@@ -315,52 +317,57 @@ a:link, a:visited, a:hover, a:active {
 		font-weight: 600;
 	}
 
+	.number-size {
+		font-size: 36px;
+		color: hsl(233, 8%, 79%);
+		font-weight: 600;
+	}
+
 	.main-p {
-		line-height: 1.6rem;
+		line-height: 1.9rem;
 	}
 
 	.p-blurb {
-		margin-top: 1rem;
+		margin-top: 1.5rem;
+		font-size: 15px;
+		line-height: 1.8rem;
 	}
 
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
+		font-size: 1.05rem;
 	}
 
 	.article-p-vc {
 		margin-top: 1rem;
+		font-size: 1.05rem;
 	}
 
 	.read-more {
-		margin-top: 1.8rem;
-		margin-bottom: 4rem;
-	}
-
-	.new-section {
-		background-color: hsl(240, 100%, 5%);
-		padding: 1.5rem;
+		margin-top: 3.5rem;
 	}
 
 	.sec-2 {
 		margin-top: 2rem;
 	}
 
-	.main-p {
-		line-height: 1.7rem;
-	}
-
 	.sec-2-title {
-		font-size: 15px;
+		font-size: 18px;
 	}
 	
 	.sec-2-img {
 		width: 40%;
 	}
 
+	.new-section {
+		background-color: hsl(240, 100%, 5%);
+		padding: 2rem;
+	}
+
 	/* Updates Font Size and Weight for new section h1 */
 	.new-section-h1 {
-		font-size: 35px;
+		font-size: 40px;
 		font-weight: 600;
 		margin-bottom: 2.3rem;
 	}
@@ -368,7 +375,8 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates Font Size and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
-		font-size: 20px;
+		font-size: 22px;
+		margin-top: 2.3rem;
 	}
 }
 
