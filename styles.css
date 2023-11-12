@@ -320,6 +320,11 @@ a:link, a:visited, a:hover, a:active {
 		margin-top: 2rem;
 	}
 
+	/* adds margin top to sec 2 */
+	.sec-2 {
+		margin-top: 2rem;
+	}
+
 	/* adjusts section 2 article image widths for tablet sized devices */
 	.sec-2-img {
 		width: 25%;
@@ -445,6 +450,11 @@ a:link, a:visited, a:hover, a:active {
 		color: hsl(36, 100%, 99%);
 		font-size: 22px;
 		margin-top: 2.3rem;
+	}
+
+	/* adds margin top to sec 2 */
+	.sec-2 {
+		margin-top: 4rem;
 	}
 }
 /****************************************/
