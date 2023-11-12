@@ -1,3 +1,5 @@
+/* Adds CSS Reset to Stylesheet */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,22 +64,23 @@ h1, h2, h3, h4 {
 	color: hsl(240, 100%, 5%);
 }
 
+/* Sets font size for h5 headings used in the HTML footer */
 h5 {
 	font-size: 15px;
 }
 
+/* Sets a default font size for all paragraphs as per the instructions */
 p {
 	font-size: 15px;
 	color: hsl(240, 100%, 5%);
 }
 
-/* Adds custom color to header */
-
+/* Adds custom color to hr element in "New" section */
 hr {
 	color: hsl(36, 100%, 99%);
 }
 
-/* Frontend Mentor Styles */
+/****** Frontend Mentor Default Styles ******/
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -86,9 +89,9 @@ hr {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+/************************************/
 
-/* Custom Global Styles */
-
+/****** CSS Custom Global Styles ******/
 nav .navbar-nav li a {
 	color: hsl(236, 13%, 42%);
 }
@@ -103,6 +106,10 @@ nav .navbar-nav li a:hover {
 
 .new-section a {
 	color: white;
+}
+
+.sec-2-title a {
+	color: hsl(240, 100%, 5%);
 }
 
 .sec-2-title a:hover {
