@@ -145,6 +145,7 @@ a:link, a:visited, a:hover, a:active {
 	color: hsl(236, 13%, 42%);
 }
 
+/* updates color of "New" section header using custom color from the included style guide */
 .new-section-h1 {
 	color: hsl(35, 77%, 62%);
 }
@@ -154,40 +155,52 @@ a:link, a:visited, a:hover, a:active {
 	width: 250px;
 }
 
-/* Custom Mobile Styles */
+/****** Custom Mobile Styles ******/
 @media screen and (min-width: 350px) and (max-width: 768px) {
+	/* hides destop banner image on mobile sized devices */
 	#desktop-banner {
 		display: none;
 	}
 
+	/* hides desktop navigation menu on mobile sized devices */
+	#desktop-nav {
+		display: none;
+	}
+
+	/* Updates default line height for all mobile paragraph tags */
 	.main-p {
 		line-height: 1.6rem;
 	}
 
+	/* adds top margin to paragraph under main h1 header to match the mobile design mockup */
 	.p-blurb {
 		margin-top: 1rem;
 	}
 
+	/* updates "new" section description margin top and bottom to match the mobile design mockup */
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
 	}
 
+	/* updates last "new" section paragraph */
 	.article-p-vc {
 		margin-top: 1rem;
 	}
 
+	/* adds margin top and bottom to mobile button to match the mobile design mockup */
 	.read-more {
 		margin-top: 1.8rem;
 		margin-bottom: 4rem;
 	}
 	
-	/* Updates mobile main title font size */
+	/* Updates mobile h1 main title font size */
 	.main-title {
 		font-size: 43px;
 		margin-top: 1.5rem;
 	}
 
+	/* adds custom color from style guide and padding to "new" section to match the mobile design mock-up */
 	.new-section {
 		background-color: hsl(240, 100%, 5%);
 		padding: 1.5rem;
@@ -200,16 +213,19 @@ a:link, a:visited, a:hover, a:active {
 		margin-bottom: 2.3rem;
 	}
 
-	/* Updates Font Size and color for new section h2 */
+	/* Updates Font Size, margin top, and color for "new" section headers */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
 		font-size: 19.5px;
+		margin-top: 2rem;
 	}
 
+	/* adjusts section 2 article image widths to match the mobile design mockup */
 	.sec-2-img {
 		width: 29%;
 	}
 
+	/* adds margin top to each section 2 article to match the mobile design mockup */
 	.retro, .laptop, .gaming {
 		margin-top: 2rem;
 	}
@@ -220,16 +236,15 @@ a:link, a:visited, a:hover, a:active {
 		font-weight: 600;
 	}
 
+	/* adjusts section 2 article titles font size to match the mobile design mockup */
 	.sec-2-title {
-		font-size: 18px;
-	}
-
-	#desktop-nav {
-		display: none;
+		font-size: 17.5px;
 	}
 }
+/****************************************/
 
-/* Custom Tablet Styles */
+
+/****** Custom Tablet Styles ******/
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	#desktop-banner {
 		display: none;
@@ -281,6 +296,7 @@ a:link, a:visited, a:hover, a:active {
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
 		font-size: 19.5px;
+		margin-top: 2rem;
 	}
 
 	.sec-2-img {
@@ -305,8 +321,10 @@ a:link, a:visited, a:hover, a:active {
 		display: none;
 	}
 }
+/****************************************/
 
-/* Custom Desktop Styles */
+
+/****** Custom Desktop Styles ******/
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 	.main-title {
 		font-size: 60px;
@@ -399,7 +417,10 @@ a:link, a:visited, a:hover, a:active {
 		margin-top: 2.3rem;
 	}
 }
+/****************************************/
 
+
+/* Custom XX Large Screen Desktop Styles */
 @media screen and (min-width: 1200px) and (max-width: 4000px) {
 	.main-title {
 		font-size: 60px;
@@ -476,3 +497,4 @@ a:link, a:visited, a:hover, a:active {
 		margin-top: 2.3rem;
 	}
 }
+/****************************************/
