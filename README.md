@@ -5,6 +5,7 @@ Student Number: 040992246
 Frontend Mentor Challenge: News Homepage
 ```
 ## References
+* [Frontend Mentor - News Homepage Challenge Page](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
 * [FreeCodeCamp.org - CSS Button Style Hover/Color/Background](https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/)
 * [Bootstrap 5.3 Documentation](https://getbootstrap.com/)
 * [Google Fonts - Inter Font](https://fonts.google.com/specimen/Inter)
