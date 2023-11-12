@@ -81,7 +81,7 @@ hr {
 	color: hsl(36, 100%, 99%);
 }
 
-/****** Frontend Mentor Default Styles ******/
+/****** Frontend Mentor Default Styles that came with the stylesheet ******/
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -93,31 +93,38 @@ hr {
 /************************************/
 
 /****** CSS Custom Global Styles ******/
+
+/* adds custom color styles from style guide for all navigation li's to match the design mockups */
 nav .navbar-nav li a {
 	color: hsl(236, 13%, 42%);
 }
 
+/* adds custom color styles from style guide for hovering over all navigation li's to match the design mockups */
 nav .navbar-nav li a:hover {
 	color: hsl(35, 77%, 62%);
 }
 
+/* adds custom color styles from style guide for hovering over all "new" section headings to match the design mockups */
 .new-section a:hover {
 	color: hsl(35, 77%, 62%);
 }
 
+/* adds custom color styles from style guide for all "new" section headings to match the design mockups */
 .new-section a {
-	color: white;
+	color:  hsl(36, 100%, 99%);
 }
 
+/* adds custom color styles from style guide for all section 2 headings to match the design mockups */
 .sec-2-title a {
 	color: hsl(240, 100%, 5%);
 }
 
+/* adds custom color styles from style guide for hovering over all section 2 headings to match the design mockups */
 .sec-2-title a:hover {
 	color: hsl(35, 77%, 62%);
 }
 
-/* removes underline from all links */
+/* removes underline from all page links */
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
