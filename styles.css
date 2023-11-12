@@ -1,4 +1,4 @@
-/* Adds CSS Reset to Stylesheet */
+/****** Adds CSS Reset to Stylesheet ******/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -50,6 +50,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/************************************/
 
 /* Adds a max-width of 1440px, as per the assignment instructions */
 html {
