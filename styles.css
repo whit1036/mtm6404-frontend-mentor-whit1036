@@ -273,19 +273,21 @@ a:link, a:visited, a:hover, a:active {
 	/* adds top margin, adjusts font size and line height to paragraph under main h1 header for tablet sized devices */
 	.p-blurb {
 		margin-top: 1rem;
-		font-size: 15px;
-		line-height: 1.8rem;
+		font-size: 18px;
+		line-height: 1.9rem;
 	}
 
 	/* updates "new" section description margin top and bottom for tablet sized devices */
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
+		font-size: 18px;
 	}
 
 	/* updates last "new" section paragraph top margin for tablet sized devives */
 	.article-p-vc {
 		margin-top: 1rem;
+		font-size: 18px;
 	}
 
 	/* adds margin top and bottom to mobile button for tablet sized devices */
@@ -297,7 +299,7 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates mobile main title font size */
 	.main-title {
 		font-size: 43px;
-		margin-top: 1rem;
+		margin-top: 2rem;
 	}
 
 	/* adds custom color from style guide and padding to "new" section for tablet sized deives */
@@ -308,7 +310,7 @@ a:link, a:visited, a:hover, a:active {
 
 	/* Updates Font Size and Weight for new section h1 */
 	.new-section-h1 {
-		font-size: 30px;
+		font-size: 35px;
 		font-weight: 600;
 		margin-bottom: 2.3rem;
 	}
@@ -316,13 +318,18 @@ a:link, a:visited, a:hover, a:active {
 	/* Updates Font Size and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
-		font-size: 19.5px;
+		font-size: 22px;
 		margin-top: 2rem;
 	}
 
 	/* adds margin top to sec 2 */
 	.sec-2 {
 		margin-top: 2rem;
+	}
+
+	.sec-2-text {
+		font-size: 18px;
+		line-height: 1.9rem;
 	}
 
 	/* adjusts section 2 article image widths for tablet sized devices */
@@ -337,14 +344,14 @@ a:link, a:visited, a:hover, a:active {
 
 	/* adjust size of numbers in section 2 article for tablet sized devices */
 	.number-size {
-		font-size: 31px;
+		font-size: 40px;
 		color: hsl(233, 8%, 79%);
 		font-weight: 600;
 	}
 
 	/* adjusts section 2 article titles font size for tablet sized devices */
 	.sec-2-title {
-		font-size: 18px;
+		font-size: 22px;
 	}
 }
 /****************************************/
@@ -354,7 +361,7 @@ a:link, a:visited, a:hover, a:active {
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 	/* Updates desktop main h1 title font size, adds margin top to match the desktop design mockup */
 	.main-title {
-		font-size: 60px;
+		font-size: 43px;
 		margin-top: 2rem;
 	}
 	
@@ -383,7 +390,7 @@ a:link, a:visited, a:hover, a:active {
 	/* adds top margin, adjusts font size and line height to paragraph under main h1 header to match the destop design mockup */
 	.p-blurb {
 		margin-top: 1.5rem;
-		font-size: 1.05rem;
+		font-size: 18px;
 		line-height: 1.8rem;
 	}
 
@@ -391,13 +398,13 @@ a:link, a:visited, a:hover, a:active {
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
-		font-size: 1.05rem;
+		font-size: 18px;
 	}
 
 	/* updates last "new" section paragraph top margin, font size and margin bottom to match the desktop design mockup */
 	.article-p-vc {
 		margin-top: 1rem;
-		font-size: 1.05rem;
+		font-size: 18px;
 		margin-bottom: -2.3rem;
 	}
 
@@ -413,7 +420,7 @@ a:link, a:visited, a:hover, a:active {
 
 	/* updates section 2 paragraph font size to match the desktop design mockup */
 	.sec-2-text {
-		font-size: 1.05rem;
+		font-size: 18px;
 	}
 
 	/* updates section 2 h3 heading font size to match the desktop design mockup */
