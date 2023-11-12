@@ -183,7 +183,7 @@ a:link, a:visited, a:hover, a:active {
 		margin-bottom: 1.8rem;
 	}
 
-	/* updates last "new" section paragraph */
+	/* updates last "new" section paragraph top margin to match the mobile design mockup */
 	.article-p-vc {
 		margin-top: 1rem;
 	}
@@ -230,6 +230,7 @@ a:link, a:visited, a:hover, a:active {
 		margin-top: 2rem;
 	}
 
+	/* adjust size of numbers in section 2 article to match the mobile design mockup */
 	.number-size {
 		font-size: 31px;
 		color: hsl(233, 8%, 79%);
@@ -246,29 +247,40 @@ a:link, a:visited, a:hover, a:active {
 
 /****** Custom Tablet Styles ******/
 @media screen and (min-width: 768px) and (max-width: 992px) {
+	/* hides destop banner image on tablet sized devices */
 	#desktop-banner {
 		display: none;
 	}
 
+	/* hides desktop navigation menu on tablet sized devices */
+	#desktop-nav {
+		display: none;
+	}
+
+	/* Updates default line height for all tablet paragraph tags */
 	.main-p {
 		line-height: 1.6rem;
 	}
 
+	/* adds top margin, adjusts font size and line height to paragraph under main h1 header for tablet sized devices */
 	.p-blurb {
 		margin-top: 1rem;
 		font-size: 15px;
 		line-height: 1.8rem;
 	}
 
+	/* updates "new" section description margin top and bottom for tablet sized devices */
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
 	}
 
+	/* updates last "new" section paragraph top margin for tablet sized devives */
 	.article-p-vc {
 		margin-top: 1rem;
 	}
 
+	/* adds margin top and bottom to mobile button for tablet sized devices */
 	.read-more {
 		margin-top: 1.8rem;
 		margin-bottom: 4rem;
@@ -280,6 +292,7 @@ a:link, a:visited, a:hover, a:active {
 		margin-top: 1rem;
 	}
 
+	/* adds custom color from style guide and padding to "new" section for tablet sized deives */
 	.new-section {
 		background-color: hsl(240, 100%, 5%);
 		padding: 1.5rem;
@@ -299,26 +312,26 @@ a:link, a:visited, a:hover, a:active {
 		margin-top: 2rem;
 	}
 
+	/* adjusts section 2 article image widths for tablet sized devices */
 	.sec-2-img {
 		width: 25%;
 	}
 
+	/* adds margin top to each section 2 article for tablet sized devices */
 	.retro, .laptop, .gaming {
 		margin-top: 2rem;
 	}
 
+	/* adjust size of numbers in section 2 article for tablet sized devices */
 	.number-size {
 		font-size: 31px;
 		color: hsl(233, 8%, 79%);
 		font-weight: 600;
 	}
 
+	/* adjusts section 2 article titles font size for tablet sized devices */
 	.sec-2-title {
 		font-size: 18px;
-	}
-
-	#desktop-nav {
-		display: none;
 	}
 }
 /****************************************/
@@ -326,91 +339,100 @@ a:link, a:visited, a:hover, a:active {
 
 /****** Custom Desktop Styles ******/
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+	/* Updates desktop main h1 title font size, adds margin top to match the desktop design mockup */
 	.main-title {
 		font-size: 60px;
 		margin-top: 2rem;
 	}
 	
+	/* hides mobile banner on desktop screen sizes to match the destop design mockup */
 	#mobile-banner {
 		display: none;
 	}
 	
+	/* hides mobile navigation menu on desktop screen sizes to match the destop design mockup */
 	#mobile-nav {
 		display: none;
 	}
 
+	/* adjust size of numbers in section 2 article to match the desktop design mockup */
 	.number-size {
 		font-size: 36px;
 		color: hsl(233, 8%, 79%);
 		font-weight: 600;
 	}
 
-	.number-size {
-		font-size: 36px;
-		color: hsl(233, 8%, 79%);
-		font-weight: 600;
-	}
-
+	/* Updates default line height for all desktop paragraph tags to match the desktop design mockup */
 	.main-p {
 		line-height: 1.9rem;
 	}
 
+	/* adds top margin, adjusts font size and line height to paragraph under main h1 header to match the destop design mockup */
 	.p-blurb {
 		margin-top: 1.5rem;
 		font-size: 1.05rem;
 		line-height: 1.8rem;
 	}
 
+	/* updates "new" section description margin top and bottom to match the destop design mockup */
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
 		font-size: 1.05rem;
 	}
 
+	/* updates last "new" section paragraph top margin, font size and margin bottom to match the desktop design mockup */
 	.article-p-vc {
 		margin-top: 1rem;
 		font-size: 1.05rem;
 		margin-bottom: -2.3rem;
 	}
 
+	/* adds margin top destop button to match the desktop design mockup */
 	.read-more {
 		margin-top: 3.5rem;
 	}
 
+	/* adds margin top to sec 2 to match the desktop design mockup */
 	.sec-2 {
 		margin-top: 2rem;
 	}
 
+	/* updates section 2 paragraph font size to match the desktop design mockup */
 	.sec-2-text {
 		font-size: 1.05rem;
 	}
 
+	/* updates section 2 h3 heading font size to match the desktop design mockup */
 	.sec-2-title {
 		font-size: 22px;
 	}
 	
+	/* adds margin top to each section 2 article to match the destop design mockup */
 	.retro, .laptop, .gaming {
 		margin-top: 2rem;
 	}
 	
+	/* adjusts section 2 article image widths to match the desktop design mockup */
 	.sec-2-img {
 		width: 15%;
 	}
 
+	/* adds custom color from style guide, margin top and padding to "new" section to match the desktop design mockup */
 	.new-section {
 		background-color: hsl(240, 100%, 5%);
 		padding: 2rem;
 		margin-top: 3.5rem;
 	}
 
-	/* Updates Font Size and Weight for new section h1 */
+	/* Updates Font Size, margin bottom and Weight for new section h1 */
 	.new-section-h1 {
 		font-size: 40px;
 		font-weight: 600;
 		margin-bottom: 2.3rem;
 	}
 
-	/* Updates Font Size and color for new section h2 */
+	/* Updates Font Size, margin top and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
 		font-size: 22px;
@@ -422,75 +444,88 @@ a:link, a:visited, a:hover, a:active {
 
 /* Custom XX Large Screen Desktop Styles */
 @media screen and (min-width: 1200px) and (max-width: 4000px) {
+	/* Updates desktop main h1 title font size, adds margin top to match the desktop design mockup */
 	.main-title {
 		font-size: 60px;
 		margin-top: 2rem;
 	}
 	
+	/* hides mobile banner on desktop screen sizes to match the destop design mockup */
 	#mobile-banner {
 		display: none;
 	}
 	
+	/* hides mobile navigation menu on desktop screen sizes to match the destop design mockup */
 	#mobile-nav {
 		display: none;
 	}
 
+	/* adjust size of numbers in section 2 article to match the desktop design mockup */
 	.number-size {
 		font-size: 36px;
 		color: hsl(233, 8%, 79%);
 		font-weight: 600;
 	}
 
+	/* Updates default line height for all desktop paragraph tags to match the desktop design mockup */
 	.main-p {
 		line-height: 1.9rem;
 	}
 
+	/* adds top margin, adjusts font size and line height to paragraph under main h1 header to match the destop design mockup */
 	.p-blurb {
 		margin-top: 1.5rem;
 		font-size: 1.05rem;
 		line-height: 1.8rem;
 	}
 
+	/* updates "new" section description margin top and bottom to match the destop design mockup */
 	.article-p {
 		margin-top: 1rem;
 		margin-bottom: 1.8rem;
 		font-size: 1.05rem;
 	}
 
+	/* updates last "new" section paragraph top margin, font size and margin bottom to match the desktop design mockup */
 	.article-p-vc {
 		margin-top: 1rem;
 		font-size: 1.05rem;
 	}
 
+	/* adds margin top destop button to match the desktop design mockup */
 	.read-more {
 		margin-top: 3.5rem;
 	}
 
+	/* adds margin top to sec 2 to match the desktop design mockup */
 	.sec-2 {
 		margin-top: 2rem;
 	}
 
+	/* updates section 2 h3 heading font size to match the desktop design mockup */
 	.sec-2-title {
 		font-size: 18px;
 	}
 	
+	/* adjusts section 2 article image widths to match the desktop design mockup */
 	.sec-2-img {
 		width: 28%;
 	}
 
+	/* adds custom color from style guide, margin top and padding to "new" section to match the desktop design mockup */
 	.new-section {
 		background-color: hsl(240, 100%, 5%);
 		padding: 2rem;
 	}
 
-	/* Updates Font Size and Weight for new section h1 */
+	/* Updates Font Size, margin bottom and Weight for new section h1 */
 	.new-section-h1 {
 		font-size: 40px;
 		font-weight: 600;
 		margin-bottom: 2.3rem;
 	}
 
-	/* Updates Font Size and color for new section h2 */
+	/* Updates Font Size, margin top and color for new section h2 */
 	.new-section-h2 {
 		color: hsl(36, 100%, 99%);
 		font-size: 22px;
