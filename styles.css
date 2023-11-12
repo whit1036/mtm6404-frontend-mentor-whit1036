@@ -500,8 +500,8 @@ a:link, a:visited, a:hover, a:active {
 	/* adds top margin, adjusts font size and line height to paragraph under main h1 header to match the destop design mockup */
 	.p-blurb {
 		margin-top: 1.5rem;
-		font-size: 1.05rem;
-		line-height: 1.8rem;
+		font-size: 1.02rem;
+		line-height: 1.7rem;
 	}
 
 	/* updates "new" section description margin top and bottom to match the destop design mockup */
@@ -525,6 +525,11 @@ a:link, a:visited, a:hover, a:active {
 	/* adds margin top to sec 2 to match the desktop design mockup */
 	.sec-2 {
 		margin-top: 2rem;
+	}
+
+	/* updates section 2 paragraph line height to match the desktop design mockup */
+	.sec-2-text {
+		line-height: 1.7rem;
 	}
 
 	/* updates section 2 h3 heading font size to match the desktop design mockup */
