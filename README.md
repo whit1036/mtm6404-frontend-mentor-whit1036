@@ -1,4 +1,4 @@
-# mtm6404-frontend-mentor-whit1036
+# Frontend Mentor Challenge
 ```
 Name: Brennan Whitworth
 Student Number: 040992246
